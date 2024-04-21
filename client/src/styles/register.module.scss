@@ -1,0 +1,32 @@
+.mainDiv {
+    @apply flex items-center justify-center h-screen;
+
+    .form {
+        @apply flex flex-col items-center bg-blue-300 p-5 rounded-lg shadow-xl w-80;
+
+        .titleForm {
+            @apply text-xl font-bold;
+        }
+
+        .inputItem {
+            @apply focus:outline-0 rounded-md h-8 w-full pl-1;
+        }
+
+        .divForm {
+            @apply flex flex-col w-full;
+        }
+        .text {
+            @apply text-lg;
+        }
+
+        .button {
+            @apply bg-white rounded-xl w-full mt-5 h-10 text-center transition-colors duration-300 ease-in-out hover:bg-blue-200;
+        }
+
+
+
+        .icon {
+            @apply absolute right-2.5  text-gray-400;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.navBar {
+  @apply flex justify-center space-x-4 cursor-pointer p-3;
+
+  .navLink {
+    @apply font-semibold text-3xl transition-all duration-500 ease-in-out hover:text-blue-900;
+  }
+
+  .active {
+    @apply text-blue-900;
+  }
+}
+
